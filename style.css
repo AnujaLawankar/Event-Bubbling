@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: bisque;
+}
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  border: 5px solid black;
+}
+
+.container {
+  display: block;
+  margin: 60px auto;
+  text-align: center;
+  transition: 0.3s;
+  width: 80vw;
+  box-shadow: 0 4px 8px 0 black;
+  background-color: rgb(124, 83, 33);
+  padding-top: 20px;
+}
+
+.carouselbox {
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: 200px;
+  cursor: pointer;
+  padding-bottom: 40px;
+}
+img {
+  margin: 0 auto;
+}
+
+img {
+  margin: 0 auto;
+}
+
+.prev {
+  text-align: center;
+  width: 100px;
+  height: 30px;
+}
+
+.next {
+  text-align: center;
+  width: 100px;
+  height: 30px;
+}
+.wrapper {
+  padding-bottom: 30px;
+}
